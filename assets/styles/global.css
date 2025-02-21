@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #FF4763;
+    --primary-color-text: #FFFFFF;
+    --primary-color-hover: #FF5F7A;
+    
+    --secondary-color: #1A242E;
+    --secondary-color-text: #FFFFFF;
+    --secondary-color-hover: #546679;
+    
+    --success-color: #0ABF62;
+    --success-color-text: #FFFFFF;
+    --success-color-hover: #0ED572;
+    
+    --info-color: #289AFF;
+    --info-color-text: #FFFFFF;
+    --info-color-hover: #5BADFF;
+    
+    --warning-color: #FFAB00;
+    --warning-color-text: #FFFFFF;
+    --warning-color-hover: #FFC533;
+    
+    --danger-color: #E63946;
+    --danger-color-text: #FFFFFF;
+    --danger-color-hover: #FF4D5E;
+}
+
+.p-button.p-button-primary {
+    background: var(--primary-color) !important;
+    color: var(--primary-color-text) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.p-button.p-button-primary:hover {
+    background: var(--primary-color-hover) !important;
+    border-color: var(--primary-color-hover) !important;
+}
+
+.p-button.p-button-secondary {
+    background: var(--secondary-color) !important;
+    color: var(--secondary-color-text) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.p-button.p-button-secondary:hover {
+    background: var(--secondary-color-hover) !important;
+    border-color: var(--secondary-color-hover) !important;
+}
+
+.p-button.p-button-success {
+    background: var(--success-color) !important;
+    color: var(--success-color-text) !important;
+    border-color: var(--success-color) !important;
+}
+
+.p-button.p-button-success:hover {
+    background: var(--success-color-hover) !important;
+    border-color: var(--success-color-hover) !important;
+}
+
+.p-button.p-button-info {
+    background: var(--info-color) !important;
+    color: var(--info-color-text) !important;
+    border-color: var(--info-color) !important;
+}
+
+.p-button.p-button-info:hover {
+    background: var(--info-color-hover) !important;
+    border-color: var(--info-color-hover) !important;
+}
+
+.p-button.p-button-warning {
+    background: var(--warning-color) !important;
+    color: var(--warning-color-text) !important;
+    border-color: var(--warning-color) !important;
+}
+
+.p-button.p-button-warning:hover {
+    background: var(--warning-color-hover) !important;
+    border-color: var(--warning-color-hover) !important;
+}
+
+.p-button.p-button-danger {
+    background: var(--danger-color) !important;
+    color: var(--danger-color-text) !important;
+    border-color: var(--danger-color) !important;
+}
+
+.p-button.p-button-danger:hover {
+    background: var(--danger-color-hover) !important;
+    border-color: var(--danger-color-hover) !important;
+}
